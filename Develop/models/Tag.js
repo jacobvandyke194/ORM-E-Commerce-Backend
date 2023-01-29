@@ -13,7 +13,7 @@ Tag.init(
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    tagName: {
+    tag_name: {
       type: DataTypes.TEXT,
       allowNull: false,
     },

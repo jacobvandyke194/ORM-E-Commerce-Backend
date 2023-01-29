@@ -16,18 +16,18 @@ Product.init(
       allowNull: true,
       primaryKey: true
     },
-    categoryID:{
+    category_id:{
       type: DataTypes.INTEGER,
       references:{
         model: 'category',
         key: 'id',
       }
     },
-    productName:{
+    product_name:{
       type:DataTypes.TEXT,
       allowNull: false
     },
-    inventory:{
+    stock:{
       type: DataTypes.INTEGER,
       allowNull: false
     },
